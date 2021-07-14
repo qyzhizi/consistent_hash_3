@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+
+import sys
+sys.path.append("../")
+from hashring.cli.ringbuilder import main
+
+
+if __name__ == "__main__":
+    # print(sys.argv)
+    # print("hahah")
+    sys.exit(main(sys.argv))

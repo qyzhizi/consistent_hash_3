@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="596869f3-ed50-4aa7-ab71-c96549c4d1dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../libselect/libselect/locale/en_US/LC_MESSAGES/libselect.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../libselect/libselect/locale/zh_CN/LC_MESSAGES/libselect.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../swift/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../swift/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aCMP6.0.0/2018-11-容灾备份/备份模块关联场景分析.xls" beforeDir="false" afterPath="$PROJECT_DIR$/../../../aCMP6.0.0/2018-11-容灾备份/备份模块关联场景分析.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aCMP6.0.0/2018-11-容灾备份/备份池与本地备份需求梳理.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../../../aCMP6.0.0/2018-11-容灾备份/备份池与本地备份需求梳理.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aCMP6.0.0/2018-11-容灾备份/容灾原理.eddx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../aCMP6.0.0/2018-11-容灾备份/容灾原理.eddx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aCMP6.0.0/2018-11-容灾备份/容灾备份组织过程资产/备份容灾.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../aCMP6.0.0/2018-11-容灾备份/容灾备份组织过程资产/备份容灾.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aCMP6.0.0/2019-06-aCMP6.0.0升级/任务状态判断机制优化.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../aCMP6.0.0/2019-06-aCMP6.0.0升级/任务状态判断机制优化.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aCMP6.0.0/2019-06-aCMP6.0.0升级/权限控制优化.eddx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../aCMP6.0.0/2019-06-aCMP6.0.0升级/权限控制优化.eddx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aCMP6.0.0/2019-07-异地备份/create_fake_backup.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aCMP6.0.0/2019-07-异地备份/tools/create_fake_backup.pl" beforeDir="false" afterPath="$PROJECT_DIR$/../../../aCMP6.0.0/2019-07-异地备份/tools/create_fake_backup.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aCMP6.0.0/2019-07-异地备份/容灾历史遗留问题.xls" beforeDir="false" afterPath="$PROJECT_DIR$/../../../aCMP6.0.0/2019-07-异地备份/容灾历史遗留问题.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aCMP6.0.0/2019-07-异地备份/异地备份.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../../../aCMP6.0.0/2019-07-异地备份/异地备份.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aCMP6.0.0/2019-07-异地备份/待办事项备忘.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../aCMP6.0.0/2019-07-异地备份/待办事项备忘.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aCMP6.0.0/2019-11-06-快速响应V2/keystone.eddx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../aCMP6.0.0/2019-11-06-快速响应V2/keystone.eddx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aCMP6.0.0/2019-12-多版本纳管/SFRD-TS-02-2.0_6.0.20版本多版本纳管模块概要设计说明书.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../aCMP6.0.0/2019-12-多版本纳管/SFRD-TS-02-2.0_6.0.20版本多版本纳管模块概要设计说明书.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aCMP6.0.0/2019-12-多版本纳管/多版本纳管checklist v1.0.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../aCMP6.0.0/2019-12-多版本纳管/多版本纳管checklist v1.0.xlsx" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hashring/app/ringbuilder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="712">
+              <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PKG-INFO">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hashring/cli/ringbuilder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#25#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/ring-builder">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#23#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hashring/common/exceptions.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/unit/test_ring.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+              <folding>
+                <element signature="e#25#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_runner_tools.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1710">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/unit/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pdb</find>
+      <find>节点</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\工作目录\03-doc\fangfei35981\新员工培养\mini-project\hashring</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ring/app/__init__.py" />
+        <option value="$PROJECT_DIR$/ring/app/builder.py" />
+        <option value="$PROJECT_DIR$/PKG-INFO" />
+        <option value="$PROJECT_DIR$/bin/ring-builder" />
+        <option value="$PROJECT_DIR$/hashring/app/ring.py" />
+        <option value="$PROJECT_DIR$/hashring/app/builder.py" />
+        <option value="$PROJECT_DIR$/test/unit/test_ring.py" />
+        <option value="$PROJECT_DIR$/hashring/app/ringbuilder.py" />
+        <option value="$PROJECT_DIR$/hashring/cli/ringbuilder.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="696" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="hashring" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\工作目录\03-doc\fangfei35981\新员工培养\mini-project\hashring" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="hashring" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\工作目录\03-doc\fangfei35981\新员工培养\mini-project\hashring" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="bin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="hashring" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\工作目录\03-doc\fangfei35981\新员工培养\mini-project\hashring" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="hashring" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="hashring" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\工作目录\03-doc\fangfei35981\新员工培养\mini-project\hashring" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="hashring" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="hashring" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\工作目录\03-doc\fangfei35981\新员工培养\mini-project\hashring" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="hashring" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cli" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="hashring" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\工作目录\03-doc\fangfei35981\新员工培养\mini-project\hashring" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="hashring" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\工作目录\03-doc\fangfei35981\新员工培养\mini-project\hashring" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="unit" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test_ring">
+    <configuration name="builder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ring" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hashring/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\工作目录\03-doc\fangfei35981\新员工培养\mini-project\hashring\hashring\app\ringbuilder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ring-builder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ring" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/ring-builder" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ringbuilder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ring" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hashring/cli" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hashring/cli/ringbuilder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_ring" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/unit" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/unit/test_ring.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_ring.TestRing" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ring" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/unit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_ring.TestRing&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_ring.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
+      <module name="ring" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/unit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/unit/test_ring.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test_ring" />
+        <item itemvalue="Python.ring-builder" />
+        <item itemvalue="Python.ringbuilder" />
+        <item itemvalue="Python.builder" />
+        <item itemvalue="Python tests.Unittests for test_ring.TestRing" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="596869f3-ed50-4aa7-ab71-c96549c4d1dc" name="Default Changelist" comment="" />
+      <created>1587172768368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587172768368</updated>
+      <workItem from="1587172770524" duration="6877000" />
+      <workItem from="1587185418052" duration="1089000" />
+      <workItem from="1587186514767" duration="9639000" />
+      <workItem from="1587289736972" duration="2554000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_test_ring_py - 2020.04.18 at 13h 55m 35s.xml">
+      <configuration name="Unittests in test_ring.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_ring_py - 2020.04.18 at 13h 55m 53s.xml">
+      <configuration name="Unittests in test_ring.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_ring_py - 2020.04.18 at 13h 56m 13s.xml">
+      <configuration name="Unittests in test_ring.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_ring_py - 2020.04.18 at 13h 57m 51s.xml">
+      <configuration name="Unittests in test_ring.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_ring_py - 2020.04.18 at 13h 58m 13s.xml">
+      <configuration name="Unittests in test_ring.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_ring_py - 2020.04.18 at 13h 58m 32s.xml">
+      <configuration name="Unittests in test_ring.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_ring_py - 2020.04.18 at 13h 58m 56s.xml">
+      <configuration name="Unittests in test_ring.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_ring_py - 2020.04.18 at 16h 52m 36s.xml">
+      <configuration name="Unittests in test_ring.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_ring_py - 2020.04.19 at 15h 47m 35s.xml">
+      <configuration name="Unittests in test_ring.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_ring_py - 2020.04.19 at 17h 48m 34s.xml">
+      <configuration name="Unittests in test_ring.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20159000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35241857" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39977604" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.32922733" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.29022706" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32922733" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32922733" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="sys.exc_info()" language="Python" />
+        <watch expression="properties['name']" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hashring$Unittests_for_test_ring_TestRingData_test_hash_dev.coverage" NAME="Unittests for test_ring.TestRingData.test_hash_dev Coverage Results" MODIFIED="1587186371451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/unit" />
+    <SUITE FILE_PATH="coverage/hashring$Unittests_in_test.coverage" NAME="Unittests in test Coverage Results" MODIFIED="1587187082117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/hashring$ringbuilder.coverage" NAME="ringbuilder Coverage Results" MODIFIED="1587188867125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hashring/cli" />
+    <SUITE FILE_PATH="coverage/hashring$Unittests_in_test_ring_py.coverage" NAME="Unittests in test_ring.py Coverage Results" MODIFIED="1587289713811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/unit" />
+    <SUITE FILE_PATH="coverage/ring$Unittests_in_test_ring_py.coverage" NAME="Unittests in test_ring.py Coverage Results" MODIFIED="1587181570231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/unit" />
+    <SUITE FILE_PATH="coverage/hashring$builder.coverage" NAME="builder Coverage Results" MODIFIED="1587188851726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hashring/app" />
+    <SUITE FILE_PATH="coverage/hashring$Unittests_for_test_ring_TestRingData_test_remove_dev.coverage" NAME="Unittests for test_ring.TestRingData.test_remove_dev Coverage Results" MODIFIED="1587186375963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/unit" />
+    <SUITE FILE_PATH="coverage/hashring$Unittests_for_test_ring_TestRingData.coverage" NAME="Unittests for test_ring.TestRingData Coverage Results" MODIFIED="1587188491280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/unit" />
+    <SUITE FILE_PATH="coverage/hashring$Unittests_for_test_ring_TestRing.coverage" NAME="Unittests for test_ring.TestRing Coverage Results" MODIFIED="1587188560692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/unit" />
+    <SUITE FILE_PATH="coverage/hashring$ring_builder.coverage" NAME="ring-builder Coverage Results" MODIFIED="1587199995083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>properties['name']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>str(properties['name'])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>properties</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sys.exc_info()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hashring/cli/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashring/common/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashring/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashring/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashring/app/ring.py" />
+    <entry file="file://$PROJECT_DIR$/PKG-INFO">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashring/common/exceptions.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_runner_tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/ring-builder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#23#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/test_ring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashring/app/ringbuilder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashring/cli/ringbuilder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#25#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
