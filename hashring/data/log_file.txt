@@ -1,0 +1,504 @@
+2021-07-15 15:44:11,704 - __main__ - INFO -62- run test_add_dev
+2021-07-15 15:44:11,704 - hashring.app.ringbuilder - INFO -59- init device
+2021-07-15 15:44:11,705 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:44:11,705 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 0, add_or_remove = True
+2021-07-15 15:44:11,705 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:44:11,705 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:44:11,705 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:44:11,705 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 1, add_or_remove = True
+2021-07-15 15:44:11,705 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:44:11,706 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:44:11,706 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:44:11,706 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 15:44:11,706 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:44:11,706 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:44:11,706 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:44:11,706 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 3, add_or_remove = True
+2021-07-15 15:44:11,707 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:44:11,707 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:44:11,707 - hashring.app.ringbuilder - INFO -64- init device success!
+2021-07-15 15:44:11,707 - hashring.app.ringbuilder - INFO -71- Add device
+2021-07-15 15:44:11,707 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:44:11,707 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 5, add_or_remove = True
+2021-07-15 15:44:11,707 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:44:11,707 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:44:11,708 - hashring.app.ringbuilder - INFO -97- Add device success!
+2021-07-15 15:44:11,711 - __main__ - INFO -95- run test_hash_dev
+2021-07-15 15:44:11,711 - hashring.app.ringbuilder - INFO -59- init device
+2021-07-15 15:44:11,711 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:44:11,711 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 0, add_or_remove = True
+2021-07-15 15:44:11,711 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:44:11,711 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:44:11,711 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:44:11,711 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 1, add_or_remove = True
+2021-07-15 15:44:11,712 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:44:11,712 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:44:11,712 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:44:11,712 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 15:44:11,712 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:44:11,712 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:44:11,712 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:44:11,712 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 3, add_or_remove = True
+2021-07-15 15:44:11,712 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:44:11,712 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:44:11,712 - hashring.app.ringbuilder - INFO -64- init device success!
+2021-07-15 15:44:11,716 - __main__ - INFO -75- run test_remove_dev
+2021-07-15 15:44:11,716 - hashring.app.ringbuilder - INFO -59- init device
+2021-07-15 15:44:11,716 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:44:11,717 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 0, add_or_remove = True
+2021-07-15 15:44:11,717 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:44:11,717 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:44:11,717 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:44:11,717 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 1, add_or_remove = True
+2021-07-15 15:44:11,717 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:44:11,717 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:44:11,717 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:44:11,717 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 15:44:11,717 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:44:11,717 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:44:11,717 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:44:11,717 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 3, add_or_remove = True
+2021-07-15 15:44:11,717 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:44:11,717 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:44:11,717 - hashring.app.ringbuilder - INFO -64- init device success!
+2021-07-15 15:44:11,718 - hashring.app.ringbuilder - INFO -143- Remove device
+2021-07-15 15:44:11,718 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:44:11,718 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 2, add_or_remove = False
+2021-07-15 15:44:11,718 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:44:11,718 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:44:11,720 - hashring.app.ringbuilder - INFO -154- Remove device success ! dev_id = 2
+2021-07-15 15:44:11,726 - __main__ - INFO -84- run test_update_dev
+2021-07-15 15:44:11,726 - hashring.app.ringbuilder - INFO -59- init device
+2021-07-15 15:44:11,726 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:44:11,726 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 0, add_or_remove = True
+2021-07-15 15:44:11,727 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:44:11,727 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:44:11,727 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:44:11,727 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 1, add_or_remove = True
+2021-07-15 15:44:11,727 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:44:11,727 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:44:11,727 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:44:11,727 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 15:44:11,727 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:44:11,727 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:44:11,727 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:44:11,727 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 3, add_or_remove = True
+2021-07-15 15:44:11,727 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:44:11,727 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:44:11,728 - hashring.app.ringbuilder - INFO -64- init device success!
+2021-07-15 15:44:11,728 - hashring.app.ringbuilder - INFO -106- Update device
+2021-07-15 15:44:11,728 - hashring.app.ringbuilder - INFO -120- new_virtual_node_num:6
+2021-07-15 15:44:11,728 - hashring.app.ringbuilder - INFO -121- old_virtual_node_num:3
+2021-07-15 15:44:11,728 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:44:11,728 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 15:44:11,728 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =3, end_node_index = 6
+2021-07-15 15:44:11,728 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:44:11,729 - hashring.app.ringbuilder - INFO -135- Update device success! dev_id = 2, dev_weight = 2
+2021-07-15 15:55:00,834 - hashring.app.ringbuilder - INFO -59- init device
+2021-07-15 15:55:00,834 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:55:00,834 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 0, add_or_remove = True
+2021-07-15 15:55:00,834 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:55:00,834 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:55:00,834 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:55:00,834 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 1, add_or_remove = True
+2021-07-15 15:55:00,834 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:55:00,834 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:55:00,834 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:55:00,835 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 15:55:00,835 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:55:00,835 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:55:00,835 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:55:00,835 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 3, add_or_remove = True
+2021-07-15 15:55:00,835 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:55:00,835 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:55:00,835 - hashring.app.ringbuilder - INFO -64- init device success!
+2021-07-15 15:55:32,562 - hashring.app.ringbuilder - INFO -71- Add device
+2021-07-15 15:55:44,431 - hashring.app.ringbuilder - INFO -59- init device
+2021-07-15 15:55:44,431 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:55:44,431 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 0, add_or_remove = True
+2021-07-15 15:55:44,431 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:55:44,431 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:55:44,432 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:55:44,432 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 1, add_or_remove = True
+2021-07-15 15:55:44,432 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:55:44,432 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:55:44,432 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:55:44,432 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 15:55:44,432 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:55:44,432 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:55:44,432 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:55:44,432 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 3, add_or_remove = True
+2021-07-15 15:55:44,432 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:55:44,432 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:55:44,433 - hashring.app.ringbuilder - INFO -64- init device success!
+2021-07-15 15:56:18,492 - hashring.app.ringbuilder - INFO -143- Remove device
+2021-07-15 15:56:18,492 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:56:18,492 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 3, add_or_remove = False
+2021-07-15 15:56:18,492 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:56:18,492 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:56:18,493 - hashring.app.ringbuilder - INFO -154- Remove device success ! dev_id = 3
+2021-07-15 15:56:52,843 - hashring.app.ringbuilder - INFO -59- init device
+2021-07-15 15:56:52,843 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:56:52,844 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 0, add_or_remove = True
+2021-07-15 15:56:52,844 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:56:52,844 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:56:52,844 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:56:52,844 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 1, add_or_remove = True
+2021-07-15 15:56:52,844 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:56:52,844 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:56:52,844 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:56:52,844 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 15:56:52,844 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 15:56:52,844 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:56:52,844 - hashring.app.ringbuilder - INFO -64- init device success!
+2021-07-15 15:56:57,958 - hashring.app.ringbuilder - INFO -106- Update device
+2021-07-15 15:56:57,958 - hashring.app.ringbuilder - INFO -120- new_virtual_node_num:6
+2021-07-15 15:56:57,958 - hashring.app.ringbuilder - INFO -121- old_virtual_node_num:3
+2021-07-15 15:56:57,958 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 15:56:57,958 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 0, add_or_remove = True
+2021-07-15 15:56:57,958 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =3, end_node_index = 6
+2021-07-15 15:56:57,958 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 15:56:57,959 - hashring.app.ringbuilder - INFO -135- Update device success! dev_id = 0, dev_weight = 2
+2021-07-15 16:00:20,512 - hashring.app.ringbuilder - INFO -59- init device
+2021-07-15 16:00:20,512 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:00:20,512 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 0, add_or_remove = True
+2021-07-15 16:00:20,512 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 6
+2021-07-15 16:00:20,512 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:00:20,512 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:00:20,512 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 1, add_or_remove = True
+2021-07-15 16:00:20,512 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:00:20,513 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:00:20,513 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:00:20,513 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 16:00:20,513 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:00:20,513 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:00:20,513 - hashring.app.ringbuilder - INFO -64- init device success!
+2021-07-15 16:00:32,715 - hashring.app.ringbuilder - INFO -143- Remove device
+2021-07-15 16:00:32,715 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:00:32,715 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 2, add_or_remove = False
+2021-07-15 16:00:32,715 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:00:32,715 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:00:32,716 - hashring.app.ringbuilder - INFO -154- Remove device success ! dev_id = 2
+2021-07-15 16:01:01,700 - __main__ - INFO -62- run test_add_dev
+2021-07-15 16:01:01,701 - hashring.app.ringbuilder - INFO -59- init device
+2021-07-15 16:01:01,701 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:01:01,701 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 0, add_or_remove = True
+2021-07-15 16:01:01,701 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:01:01,701 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:01:01,701 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:01:01,701 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 1, add_or_remove = True
+2021-07-15 16:01:01,701 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:01:01,701 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:01:01,702 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:01:01,702 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 16:01:01,702 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:01:01,702 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:01:01,702 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:01:01,702 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 3, add_or_remove = True
+2021-07-15 16:01:01,702 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:01:01,702 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:01:01,702 - hashring.app.ringbuilder - INFO -64- init device success!
+2021-07-15 16:01:01,702 - hashring.app.ringbuilder - INFO -71- Add device
+2021-07-15 16:01:01,702 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:01:01,702 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 5, add_or_remove = True
+2021-07-15 16:01:01,703 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:01:01,703 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:01:01,705 - hashring.app.ringbuilder - INFO -97- Add device success!
+2021-07-15 16:01:01,711 - __main__ - INFO -95- run test_hash_dev
+2021-07-15 16:01:01,711 - hashring.app.ringbuilder - INFO -59- init device
+2021-07-15 16:01:01,711 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:01:01,711 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 0, add_or_remove = True
+2021-07-15 16:01:01,711 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:01:01,711 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:01:01,712 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:01:01,712 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 1, add_or_remove = True
+2021-07-15 16:01:01,712 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:01:01,712 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:01:01,713 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:01:01,713 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 16:01:01,713 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:01:01,713 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:01:01,713 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:01:01,713 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 3, add_or_remove = True
+2021-07-15 16:01:01,713 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:01:01,713 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:01:01,713 - hashring.app.ringbuilder - INFO -64- init device success!
+2021-07-15 16:01:01,719 - __main__ - INFO -75- run test_remove_dev
+2021-07-15 16:01:01,720 - hashring.app.ringbuilder - INFO -59- init device
+2021-07-15 16:01:01,720 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:01:01,720 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 0, add_or_remove = True
+2021-07-15 16:01:01,720 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:01:01,720 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:01:01,720 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:01:01,720 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 1, add_or_remove = True
+2021-07-15 16:01:01,720 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:01:01,720 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:01:01,721 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:01:01,721 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 16:01:01,721 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:01:01,721 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:01:01,721 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:01:01,721 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 3, add_or_remove = True
+2021-07-15 16:01:01,721 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:01:01,722 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:01:01,722 - hashring.app.ringbuilder - INFO -64- init device success!
+2021-07-15 16:01:01,722 - hashring.app.ringbuilder - INFO -143- Remove device
+2021-07-15 16:01:01,722 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:01:01,722 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 2, add_or_remove = False
+2021-07-15 16:01:01,722 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:01:01,722 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:01:01,725 - hashring.app.ringbuilder - INFO -154- Remove device success ! dev_id = 2
+2021-07-15 16:01:01,728 - __main__ - INFO -84- run test_update_dev
+2021-07-15 16:01:01,728 - hashring.app.ringbuilder - INFO -59- init device
+2021-07-15 16:01:01,728 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:01:01,728 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 0, add_or_remove = True
+2021-07-15 16:01:01,728 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:01:01,729 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:01:01,729 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:01:01,729 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 1, add_or_remove = True
+2021-07-15 16:01:01,729 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:01:01,730 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:01:01,730 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:01:01,730 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 16:01:01,730 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:01:01,730 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:01:01,731 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:01:01,731 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 3, add_or_remove = True
+2021-07-15 16:01:01,731 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:01:01,731 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:01:01,731 - hashring.app.ringbuilder - INFO -64- init device success!
+2021-07-15 16:01:01,732 - hashring.app.ringbuilder - INFO -106- Update device
+2021-07-15 16:01:01,732 - hashring.app.ringbuilder - INFO -120- new_virtual_node_num:6
+2021-07-15 16:01:01,732 - hashring.app.ringbuilder - INFO -121- old_virtual_node_num:3
+2021-07-15 16:01:01,732 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:01:01,732 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 16:01:01,732 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =3, end_node_index = 6
+2021-07-15 16:01:01,732 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:01:01,733 - hashring.app.ringbuilder - INFO -135- Update device success! dev_id = 2, dev_weight = 2
+2021-07-15 16:01:18,933 - hashring.app.ringbuilder - INFO -59- init device
+2021-07-15 16:01:18,933 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:01:18,933 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 0, add_or_remove = True
+2021-07-15 16:01:18,933 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:01:18,933 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:01:18,933 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:01:18,933 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 1, add_or_remove = True
+2021-07-15 16:01:18,933 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:01:18,933 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:01:18,933 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:01:18,933 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 16:01:18,934 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:01:18,934 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:01:18,934 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:01:18,934 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 3, add_or_remove = True
+2021-07-15 16:01:18,934 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:01:18,934 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:01:18,934 - hashring.app.ringbuilder - INFO -64- init device success!
+2021-07-15 16:01:21,107 - hashring.app.ringbuilder - INFO -143- Remove device
+2021-07-15 16:01:21,107 - hashring.app.ringbuilder - INFO -160- Rebalance device!
+2021-07-15 16:01:21,107 - hashring.app.ringbuilder - INFO -161- Rebalance: dev_id = 2, add_or_remove = False
+2021-07-15 16:01:21,107 - hashring.app.ringbuilder - INFO -163- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:01:21,107 - hashring.app.ringbuilder - INFO -172- Rebalance device success!
+2021-07-15 16:01:21,108 - hashring.app.ringbuilder - INFO -154- Remove device success ! dev_id = 2
+2021-07-15 16:18:29,362 - __main__ - INFO -61- run test_add_dev
+2021-07-15 16:18:29,362 - hashring.app.ringbuilder - INFO -59- init device
+2021-07-15 16:18:29,362 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 16:18:29,362 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 0, add_or_remove = True
+2021-07-15 16:18:29,362 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:18:29,362 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 16:18:29,363 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 16:18:29,363 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 1, add_or_remove = True
+2021-07-15 16:18:29,363 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:18:29,363 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 16:18:29,363 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 16:18:29,363 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 16:18:29,363 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:18:29,363 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 16:18:29,363 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 16:18:29,363 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 3, add_or_remove = True
+2021-07-15 16:18:29,363 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:18:29,364 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 16:18:29,364 - hashring.app.ringbuilder - INFO -64- init device success!
+2021-07-15 16:18:29,364 - hashring.app.ringbuilder - INFO -71- Add device
+2021-07-15 16:18:29,364 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 16:18:29,364 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 5, add_or_remove = True
+2021-07-15 16:18:29,364 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:18:29,364 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 16:18:29,366 - hashring.app.ringbuilder - INFO -97- Add device success!
+2021-07-15 16:18:29,369 - __main__ - INFO -93- run test_hash_dev
+2021-07-15 16:18:29,369 - hashring.app.ringbuilder - INFO -59- init device
+2021-07-15 16:18:29,369 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 16:18:29,369 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 0, add_or_remove = True
+2021-07-15 16:18:29,369 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:18:29,369 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 16:18:29,369 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 16:18:29,369 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 1, add_or_remove = True
+2021-07-15 16:18:29,369 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:18:29,369 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 16:18:29,369 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 16:18:29,370 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 16:18:29,370 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:18:29,370 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 16:18:29,370 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 16:18:29,370 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 3, add_or_remove = True
+2021-07-15 16:18:29,370 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:18:29,370 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 16:18:29,370 - hashring.app.ringbuilder - INFO -64- init device success!
+2021-07-15 16:18:29,373 - __main__ - INFO -74- run test_remove_dev
+2021-07-15 16:18:29,374 - hashring.app.ringbuilder - INFO -59- init device
+2021-07-15 16:18:29,374 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 16:18:29,374 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 0, add_or_remove = True
+2021-07-15 16:18:29,374 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:18:29,374 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 16:18:29,374 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 16:18:29,374 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 1, add_or_remove = True
+2021-07-15 16:18:29,374 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:18:29,374 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 16:18:29,374 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 16:18:29,374 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 16:18:29,374 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:18:29,375 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 16:18:29,375 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 16:18:29,375 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 3, add_or_remove = True
+2021-07-15 16:18:29,375 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:18:29,375 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 16:18:29,375 - hashring.app.ringbuilder - INFO -64- init device success!
+2021-07-15 16:18:29,375 - hashring.app.ringbuilder - INFO -145- Remove device
+2021-07-15 16:18:29,375 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 16:18:29,375 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 2, add_or_remove = False
+2021-07-15 16:18:29,376 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:18:29,376 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 16:18:29,378 - hashring.app.ringbuilder - INFO -156- Remove device success ! dev_id = 2
+2021-07-15 16:18:29,384 - __main__ - INFO -83- run test_update_dev
+2021-07-15 16:18:29,384 - hashring.app.ringbuilder - INFO -59- init device
+2021-07-15 16:18:29,384 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 16:18:29,384 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 0, add_or_remove = True
+2021-07-15 16:18:29,384 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:18:29,384 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 16:18:29,384 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 16:18:29,384 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 1, add_or_remove = True
+2021-07-15 16:18:29,384 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:18:29,384 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 16:18:29,384 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 16:18:29,385 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 16:18:29,385 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:18:29,385 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 16:18:29,385 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 16:18:29,385 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 3, add_or_remove = True
+2021-07-15 16:18:29,385 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 16:18:29,385 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 16:18:29,385 - hashring.app.ringbuilder - INFO -64- init device success!
+2021-07-15 16:18:29,385 - hashring.app.ringbuilder - INFO -107- Update device
+2021-07-15 16:18:29,385 - hashring.app.ringbuilder - INFO -121- new_virtual_node_num:6
+2021-07-15 16:18:29,385 - hashring.app.ringbuilder - INFO -122- old_virtual_node_num:3
+2021-07-15 16:18:29,385 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 16:18:29,385 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 16:18:29,385 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =3, end_node_index = 6
+2021-07-15 16:18:29,385 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 16:18:29,386 - hashring.app.ringbuilder - INFO -136- Update device success! dev_id = 2, dev_weight = 2
+2021-07-15 17:20:43,563 - hashring.app.ringbuilder - INFO -59- init device
+2021-07-15 17:20:43,564 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 17:20:43,564 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 0, add_or_remove = True
+2021-07-15 17:20:43,564 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 17:20:43,564 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 17:20:43,564 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 17:20:43,564 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 1, add_or_remove = True
+2021-07-15 17:20:43,564 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 17:20:43,564 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 17:20:43,564 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 17:20:43,564 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 17:20:43,564 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 17:20:43,564 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 17:20:43,565 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 17:20:43,565 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 3, add_or_remove = True
+2021-07-15 17:20:43,565 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 17:20:43,565 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 17:20:43,565 - hashring.app.ringbuilder - INFO -64- init device success!
+2021-07-15 17:34:04,330 - hashring.app.ringbuilder - INFO -59- init device
+2021-07-15 17:34:04,330 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 17:34:04,330 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 0, add_or_remove = True
+2021-07-15 17:34:04,330 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 17:34:04,330 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 17:34:04,330 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 17:34:04,330 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 1, add_or_remove = True
+2021-07-15 17:34:04,330 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 17:34:04,331 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 17:34:04,331 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 17:34:04,331 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 17:34:04,331 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 17:34:04,331 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 17:34:04,331 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 17:34:04,331 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 3, add_or_remove = True
+2021-07-15 17:34:04,331 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 17:34:04,331 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 17:34:04,331 - hashring.app.ringbuilder - INFO -64- init device success!
+2021-07-15 18:01:54,354 - hashring.app.ringbuilder - INFO -59- init device
+2021-07-15 18:01:54,354 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 18:01:54,354 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 0, add_or_remove = True
+2021-07-15 18:01:54,355 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 18:01:54,355 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 18:01:54,355 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 18:01:54,355 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 1, add_or_remove = True
+2021-07-15 18:01:54,355 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 18:01:54,355 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 18:01:54,355 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 18:01:54,355 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 18:01:54,355 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 18:01:54,355 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 18:01:54,355 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 18:01:54,355 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 3, add_or_remove = True
+2021-07-15 18:01:54,356 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 18:01:54,356 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 18:01:54,356 - hashring.app.ringbuilder - INFO -64- init device success!
+2021-07-15 18:02:08,658 - hashring.app.ringbuilder - INFO -71- Add device
+2021-07-15 18:02:42,907 - hashring.app.ringbuilder - INFO -59- init device
+2021-07-15 18:02:42,907 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 18:02:42,907 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 0, add_or_remove = True
+2021-07-15 18:02:42,907 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 18:02:42,907 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 18:02:42,907 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 18:02:42,907 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 1, add_or_remove = True
+2021-07-15 18:02:42,907 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 18:02:42,907 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 18:02:42,907 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 18:02:42,907 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 18:02:42,907 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 18:02:42,907 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 18:02:42,907 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 18:02:42,907 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 3, add_or_remove = True
+2021-07-15 18:02:42,908 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 18:02:42,908 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 18:02:42,908 - hashring.app.ringbuilder - INFO -64- init device success!
+2021-07-15 18:02:46,537 - hashring.app.ringbuilder - INFO -145- Remove device
+2021-07-15 18:02:46,537 - hashring.cli.ringbuilder - ERROR -74- '78'
+Traceback (most recent call last):
+  File "../hashring/cli/ringbuilder.py", line 72, in remove
+    self.ring_builder.remove_dev(dev_id)
+  File "../hashring/app/ringbuilder.py", line 146, in remove_dev
+    item = self.data_manager.dev_inf[dev_id]  # dev_id : str
+KeyError: '78'
+2021-07-15 18:03:13,691 - hashring.app.ringbuilder - INFO -59- init device
+2021-07-15 18:03:13,691 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 18:03:13,691 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 0, add_or_remove = True
+2021-07-15 18:03:13,691 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 18:03:13,691 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 18:03:13,691 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 18:03:13,691 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 1, add_or_remove = True
+2021-07-15 18:03:13,691 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 18:03:13,691 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 18:03:13,691 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 18:03:13,691 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 2, add_or_remove = True
+2021-07-15 18:03:13,691 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 18:03:13,691 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 18:03:13,692 - hashring.app.ringbuilder - INFO -163- Rebalance device!
+2021-07-15 18:03:13,692 - hashring.app.ringbuilder - INFO -164- Rebalance: dev_id = 3, add_or_remove = True
+2021-07-15 18:03:13,692 - hashring.app.ringbuilder - INFO -166- Rebalance: start_node_index =0, end_node_index = 3
+2021-07-15 18:03:13,692 - hashring.app.ringbuilder - INFO -175- Rebalance device success!
+2021-07-15 18:03:13,692 - hashring.app.ringbuilder - INFO -64- init device success!
+2021-07-15 18:03:15,647 - hashring.app.ringbuilder - INFO -145- Remove device
+2021-07-15 18:03:15,647 - hashring.cli.ringbuilder - ERROR -74- '78'
+Traceback (most recent call last):
+  File "../hashring/cli/ringbuilder.py", line 72, in remove
+    self.ring_builder.remove_dev(dev_id)
+  File "../hashring/app/ringbuilder.py", line 146, in remove_dev
+    item = self.data_manager.dev_inf[dev_id]  # dev_id : str
+KeyError: '78'

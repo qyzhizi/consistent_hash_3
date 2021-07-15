@@ -8,3 +8,25 @@ class ErrorNotImplemented(Exception):
     """
     def __str__(self):
         return "接口未实现！"
+
+
+class ErrorInvalidPara(Exception):
+    """
+    非法输入参数
+    """
+    def __init__(self, print_str):
+        self.print_str = print_str
+
+    def __str__(self):
+        return self.print_str
+
+
+class ErrorFile(Exception):
+    """
+    文件内容为空
+    """
+    def __init__(self, print_str):
+        self.print_str = print_str
+
+    def __str__(self):
+        return self.print_str

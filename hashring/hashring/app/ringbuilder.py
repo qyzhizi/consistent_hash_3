@@ -1,46 +1,52 @@
-import sys
 # -*- coding: utf-8 -*-
-sys.path.append("../../")
+import sys
 import json
 import bisect
 import hashlib
+import logging
+sys.path.append("../../")
 
 from hashring.common import exceptions as exc
 from hashring.common.config import Const
-from hashring.common.config import logger
+
+logger = logging.getLogger(__name__)
+logger.setLevel(level=logging.INFO)
+handler = logging.FileHandler(Const.LOG_FILE_NAME_RUN)
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s -%(lineno)d- %(message)s')
+handler.setFormatter(formatter)
+logger.addHandler(handler)
+
 
 def get_hash(raw_str):
     """将字符串映射到2^32的数字中"""
+
     md5_str = hashlib.md5(raw_str.encode('utf-8')).hexdigest()
     return int(md5_str, 16) % (Const.MOD_NUM)
 
+
 class DataManager(object):
     """Data manager."""
-    # sorted_cache_list = []  # 排序好的hash值(虚拟节点)
-    # cache_node = dict()  # 存储虚拟节点到物理设备的hash映射
-    dev_inf = None  # 设备信息
-    filename = None
 
     def __init__(self, path):
-        DataManager.filename=path
+        # DataManager.filename=path
+        self.dev_inf = None  # 设备信息
+        self.filename = path
 
-    @classmethod
-    def load(cls):
+    def load(self):
         u"""加载文件.
         :param filename: 文件名
         """
-        with open(DataManager.filename) as f:
-            cls.dev_inf = json.load(f)
-        
 
-    @classmethod
-    def save(cls):
+        with open(self.filename) as f:
+            self.dev_inf = json.load(f)
+
+    def save(self):
         u"""保存文件.
-
         :param filename: 文件名
         """
-        with open(DataManager.filename, "w") as f:
-            json.dump(cls.dev_inf, f)
+
+        with open(self.filename, "w") as f:
+            json.dump(self.dev_inf, f)
 
 
 class RingBuilder(object):
@@ -50,45 +56,46 @@ class RingBuilder(object):
         self.sorted_cache_list = []  # 排序好的hash值(虚拟节点)
         self.cache_node = dict()  # 存储虚拟节点到物理设备的hash映射
         self.data_manager = data_manager
-        for key, item in self.data_manager.dev_inf.items():
-            virtual_num = item[Const.PART_NUM]
-            weight = item[Const.DEV_WEIGHT]
-            for index in range(0, virtual_num * weight):
-                node_hash = get_hash("%s_%s" % (key, index))
-                bisect.insort(self.sorted_cache_list, node_hash)
-                self.cache_node[node_hash] = key
-        
+        logger.info("init device")
+        for dev_id_key, item in self.data_manager.dev_inf.items():
+            part_num = item[Const.PART_NUM]
+            dev_weight = item[Const.DEV_WEIGHT]
+            self.rebalance(dev_id_key, Const.ADD, 0, part_num * dev_weight)
+        logger.info("init device success!")
 
     def add_dev(self, dev_id, dev_name=None, dev_weight=None, part_num=None):
         u"""添加设备.
         :param dev_id: 待添加的设备信息
         """
-        # raise exc.ErrorNotImplemented()
+
+        logger.info("Add device")
+        # params type check            
         if dev_id in self.data_manager.dev_inf.keys():
             return 
-        # params check
-        try:
-            if dev_id and not isinstance(dev_id, str):
-                raise ValueError("dev_id must be str type")
-            if dev_name and not isinstance(dev_name, str):
-                raise ValueError("dev_name must be str type")
-            if dev_weight and  not isinstance(dev_weight, int):
-                raise ValueError("dev_weight must be int type")
-            if part_num and not isinstance(part_num, int):
-                raise ValueError("part_num must be int type")
-        except ValueError as e:
-            logger.info("error:", repr(e))
-    
+        if dev_id and not isinstance(dev_id, str):
+            raise TypeError("dev_id must be str type")
+        if dev_name and not isinstance(dev_name, str):
+            raise TypeError("dev_name must be str type")
+        if dev_weight and  not isinstance(dev_weight, int):
+            raise TypeError("dev_weight must be int type")
+        if part_num and not isinstance(part_num, int):
+            raise TypeError("part_num must be int type")
+
+        # 更新设备信息
         added_dev = {dev_id: {Const.DEV_NAME:dev_name, Const.DEV_WEIGHT:dev_weight, Const.PART_NUM:part_num}}
         self.data_manager.dev_inf.update(added_dev)
+
         # rebalance
         virtual_node_num = dev_weight * part_num
         self.rebalance(dev_id, 
             add_or_remove=Const.ADD,
             start_node_index=0,
-            end_node_index=virtual_node_num+1)
+            end_node_index=virtual_node_num)
+
         # save dev_inf
         self.data_manager.save()
+        logger.info("Add device success!")
+        return 0
 
     def update_dev(self, dev_id, dev_weight=None):
         u"""更新设备信息.
@@ -96,16 +103,14 @@ class RingBuilder(object):
         :param dev_id: 设备ID
         :param weight: 权重
         """
+
+        logger.info("Update device")
         if dev_id not in self.data_manager.dev_inf:
             return  
-        # params check  @TODO dev_weight > 0
-        try:
-            if dev_id and not isinstance(dev_id, str):
-                raise ValueError("dev_id must be str type")
-            if dev_weight and not isinstance(dev_weight, int):
-                raise ValueError("dev_weight must be int type")
-        except ValueError as e:
-            logger.info("error:", repr(e))
+        if dev_id and not isinstance(dev_id, str):
+            raise TypeError("dev_id must be str type")
+        if dev_weight and not isinstance(dev_weight, int):
+            raise TypeError("dev_weight must be int type")
 
         # rebalance
         info_of_dev_id = self.data_manager.dev_inf[dev_id]  # dev_id 的设备信息， 字典类型
@@ -128,13 +133,16 @@ class RingBuilder(object):
         # save dev_inf                
         self.data_manager.dev_inf[dev_id].update({Const.DEV_WEIGHT: dev_weight})
         self.data_manager.save()
+        logger.info("Update device success! dev_id = {}, dev_weight = {}".format(dev_id, dev_weight))
+        return 0
         
-
     def remove_dev(self, dev_id):
         u"""删除设备.
 
         :param dev_id: 待删除的设备ID
         """
+
+        logger.info("Remove device")
         item = self.data_manager.dev_inf[dev_id]  # dev_id : str
         self.virtual_num = item[Const.PART_NUM]
         del self.data_manager.dev_inf[dev_id]
@@ -145,21 +153,27 @@ class RingBuilder(object):
             start_node_index=0, 
             end_node_index=virtual_node_num)
         self.data_manager.save()
+        logger.info("Remove device success ! dev_id = {}".format(dev_id))
+        return 0
 
     # @TODO params check
     def rebalance(self, dev_id, add_or_remove, start_node_index, end_node_index):
         u"""重新平衡ring."""
+
+        logger.info("Rebalance device!")
+        logger.info("Rebalance: dev_id = {}, add_or_remove = {}".format(dev_id, add_or_remove))
+        logger.info("Rebalance: start_node_index ={}, end_node_index = {}".format(start_node_index,
+                                                                            end_node_index))
         for index in range(start_node_index, end_node_index):
             node_hash = get_hash("%s_%s" % (dev_id, index))
-            logger.info("virtual_node: {}_{}, hash_value:{}".format(dev_id,index,node_hash))
             if add_or_remove == Const.ADD:
                 bisect.insort(self.sorted_cache_list, node_hash)
                 self.cache_node[node_hash] = dev_id
-                logger.info("virtual_node: {}_{} is added".format(dev_id,index))
             else:
                 self.sorted_cache_list.remove(node_hash)
                 del self.cache_node[node_hash]
-                logger.info("virtual_node: {}_{} is removed".format(dev_id,index))
+        logger.info("Rebalance device success!")
+        return 0
 
     def hash_dev(self, key):
         u"""获取指定key hash到的设备."""
@@ -173,3 +187,4 @@ class RingBuilder(object):
             json.dump(self.sorted_cache_list, f)  # 保存哈希列表到本地
         with open(filename2, "w")as f:
             json.dump(self.cache_node, f)  # 保存字典（"哈希值-设备ID"）到本地
+        return 0

@@ -1,0 +1,8 @@
+2021-07-15 14:50:55,843 - __main__ - INFO -62- run test_add_dev
+2021-07-15 14:50:55,850 - __main__ - INFO -95- run test_hash_dev
+2021-07-15 14:50:55,855 - __main__ - INFO -75- run test_remove_dev
+2021-07-15 14:50:55,862 - __main__ - INFO -84- run test_update_dev
+2021-07-15 15:08:11,433 - __main__ - INFO -62- run test_add_dev
+2021-07-15 15:08:11,438 - __main__ - INFO -95- run test_hash_dev
+2021-07-15 15:08:11,442 - __main__ - INFO -75- run test_remove_dev
+2021-07-15 15:08:11,449 - __main__ - INFO -84- run test_update_dev

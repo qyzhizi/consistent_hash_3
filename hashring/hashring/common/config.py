@@ -1,8 +1,3 @@
-import logging
-# logging.basicConfig(level = logging.INFO,format = '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-logging.basicConfig(level = logging.INFO, format = '%(asctime)s - %(name)s - %(levelname)s -%(lineno)d- %(message)s')
-logger = logging.getLogger(__name__)
-
 class Const(object):
 
     DEV_ID = "dev_id"  # 设备ID
@@ -16,5 +11,8 @@ class Const(object):
     EXIT_ERROR = 2
     # 设备信息，用于初始化哈希环
     DEV_INFO_JSON = "/home/qy/2021-7-12-hash/hashring/data/dev_info-4.json"
-    TEST_PATH = '../../data/dev_info-4.json'
-    RELOAD_PATH = '../../data/dev_info.json'
+    TEST_PATH = '/home/qy/2021-7-12-hash/hashring/data/dev_info-4.json'
+    RELOAD_PATH = '/home/qy/2021-7-12-hash/hashring/data/dev_info.json'
+    # 日志文件
+    LOG_FILE_NAME_RUN = '/home/qy/2021-7-12-hash/hashring/data/log_file.txt'
+    LOG_FILE_NAME_TEST = '/home/qy/2021-7-12-hash/hashring/data/log_file_test.txt'
